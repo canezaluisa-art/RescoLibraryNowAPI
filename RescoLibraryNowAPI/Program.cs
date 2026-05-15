@@ -27,6 +27,6 @@ var summaries = new[]
 
 app.MapControllers();
 
-app.MapGet("/", () => "RescoLibraryNowAPI is running. Go to /swagger for API docs.")
+app.MapGet("/", () => "RescoLibraryNowAPI is running. Go to /swagger for API docs.");
 
 app.Run();
