@@ -11,8 +11,8 @@ namespace RescoLibraryNowAPI.Controllers
     {
         private static List<Books> books = new List<Books>
         {
-            new Books { Id = 1, Title = "Sunrise on the Reaping", Author = "Suzanne Collins", Genre = "Dystopian / YA", Available = true, PublishedYear = 2025 },
-            new Books { Id = 2, Title = "Onyx Storm", Author = "Rebecca Yarros", Genre = "Fantasy / Romance", Available = true, PublishedYear = 2025 },
+            new Books { Id = 1, Title = "The Awakening", Author = "Kate Chopin", Genre = "Feminist literature", Available = true, PublishedYear = 1899 },
+            new Books { Id = 2, Title = "Broken Promises", Author = "Anne Willow", Genre = "Contemporary, Fiction, New Adult, Young Adult", Available = true, PublishedYear = 2018 },
 
         };
         [HttpGet]
